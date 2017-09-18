@@ -1,7 +1,8 @@
 {
   "name": "frontstore",
   "version": "1.0.0",
-  "description": "Simple frot store",
+  "description": "Simple frontstore",
+  "repository": "https://github.com/forevist/frontstore",
   "scripts": {
     "postinstall": "bower install",
     "prestart": "npm install",
