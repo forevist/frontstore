@@ -1,0 +1,8 @@
+<pre>
+	Order Number: {{$ctrl.number}}
+	Customer: {{$ctrl.order.fullname}}
+	Adress: {{$ctrl.order.address}}
+	Product: {{$ctrl.order.item.name}}
+
+	Amount charged to the credit card: {{$ctrl.order.item.price * (100 - $ctrl.order.item.discount) / 100 | cashstyle}}$
+</pre>

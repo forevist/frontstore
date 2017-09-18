@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="storefront">
+
+<head>
+  <meta charset="utf-8">
+  <title>Games shop</title>
+  <link rel="stylesheet" href="app.css" />
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="core/core.module.js"></script>
+  <script src="core/cashstyle/cashstyle.filter.js"></script>
+  <script src="core/item/item.module.js"></script>
+  <script src="core/item/item.service.js"></script>
+  <script src="core/order/order.module.js"></script>
+  <script src="core/order/order.service.js"></script>
+  <script src="item-list/item-list.module.js"></script>
+  <script src="item-list/item-list.component.js"></script>
+  <script src="item-info/item-info.module.js"></script>
+  <script src="item-info/item-info.component.js"></script>
+  <script src="confirm-order/confirm-order.module.js"></script>
+  <script src="confirm-order/confirm-order.component.js"></script>
+</head>
+
+<body>
+
+  <div ng-view></div>
+
+</body>
+
+</html>

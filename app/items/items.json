@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Divinity: Original Sin 2",
+        "imgLogo": "/img/items/1-logo.jpg",         
+        "imgPreview": "/img/items/1-preview.jpg",
+        "description": "The eagerly anticipated sequel to the award-winning RPG. Gather your party. Master deep, tactical combat. Join up to 3 other players - but know that only one of you will have the chance to become a God.",
+        "price": 100,
+        "discount": 10
+    }, 
+    {
+        "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "imgLogo": "/img/items/2-logo.jpg",         
+        "imgPreview": "/img/items/2-preview.jpg",
+        "description": "PLAYERUNKNOWN'S BATTLEGROUNDS is a last-man-standing shooter being developed with community feedback. Players must fight to locate weapons and supplies in a massive 8x8 km island to be the lone survivor. This is BATTLE ROYALE.",
+        "price": 200,
+        "discount": 0
+    }, 
+    {
+        "name": "Tom Clancy’s The Division",
+        "imgLogo": "/img/items/3-logo.jpg",         
+        "imgPreview": "/img/items/3-preview.jpg",
+        "description": "Black Friday – a devastating pandemic sweeps through New York City, and one by one, basic services fail. In only days, without food or water, society collapses into chaos. The Division, an autonomous unit of tactical agents, is activated.",
+        "price": 300,
+        "discount": 25
+    }, 
+    {
+        "name": "Dead by Daylight",
+        "imgLogo": "/img/items/4-logo.jpg",         
+        "imgPreview": "/img/items/4-preview.jpg",
+        "description": "Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught and killed.",
+        "price": 400,
+        "discount": 15
+    }, 
+    {
+        "name": "Counter-Strike: Global Offensive",
+        "imgLogo": "/img/items/5-logo.jpg",         
+        "imgPreview": "/img/items/5-preview.jpg",
+        "description": "Counter-Strike: Global Offensive (CS: GO) will expand upon the team-based action gameplay that it pioneered when it was launched 14 years ago. CS: GO features new maps, characters, and weapons and delivers updated versions of the classic CS content (de_dust, etc.)",
+        "price": 350,
+        "discount": 10
+    }, 
+    {
+        "name": "DARK SOULS III",
+        "imgLogo": "/img/items/6-logo.jpg",         
+        "imgPreview": "/img/items/6-preview.jpg",
+        "description": "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and Embrace The Darkness!",
+        "price": 120,
+        "discount": 0
+    }, 
+    {
+        "name": "Dishonored: Death of the Outsider",
+        "imgLogo": "/img/items/7-logo.jpg",         
+        "imgPreview": "/img/items/7-preview.jpg",
+        "description": "From the award-winning developers at Arkane® Studios comes Dishonored®: Death of the Outsider, the next standalone adventure in the critically-acclaimed Dishonored® series.",
+        "price": 250,
+        "discount": 0
+    }, 
+    {
+        "name": "Grand Theft Auto V",
+        "imgLogo": "/img/items/8-logo.jpg",         
+        "imgPreview": "/img/items/8-preview.jpg",
+        "description": "Elevate your criminal empire with GTA Online: Smuggler’s Run. Manage a new smuggling business from customizable Hangar properties and store your collection of new planes and choppers. Featuring seven new aircraft, two new cars, Motor Wars Adversary Mode and much more.",
+        "price": 400,
+        "discount": 50
+    }, 
+    {
+        "name": "Total War: WARHAMMER II",
+        "imgLogo": "/img/items/9-logo.jpg",         
+        "imgPreview": "/img/items/9-preview.jpg",
+        "description": "Sequel to the award-winning Total War: WARHAMMER, Total War: WARHAMMER II introduces a breathtaking campaign of exploration, expansion and conquest across The New World.",
+        "price": 360,
+        "discount": 10
+    }, 
+    {
+        "name": "TEKKEN 7",
+        "imgLogo": "/img/items/10-logo.jpg",        
+        "imgPreview": "/img/items/10-preview.jpg",
+        "description": "Discover the epic conclusion of the long-time clan warfare between members of the Mishima family. Powered by Unreal Engine 4, the legendary fighting game franchise fights back with stunning story-driven cinematic battles and intense duels that can be enjoyed with friends and rivals.",
+        "price": 275,
+        "discount": 15
+    }, 
+    {
+        "name": "PRO EVOLUTION SOCCER 2018",
+        "imgLogo": "/img/items/11-logo.jpg",         
+        "imgPreview": "/img/items/11-preview.jpg",
+        "description": "'Where Legends Are Made' encapsulates the return of PES, with an unparalleled gameplay experience.",
+        "price": 330,
+        "discount": 10
+    }, 
+    {
+        "name": "Rocket League",
+        "imgLogo": "/img/items/12-logo.jpg",         
+        "imgPreview": "/img/items/12-preview.jpg",
+        "description": "Soccer meets driving once again in the long-awaited, physics-based multiplayer-focused sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars! Choose a variety of high-flying vehicles equipped with huge rocket boosters to score amazing aerial goals and pull-off incredible game-changing saves!",
+        "price": 500,
+        "discount": 33
+    }, 
+    {
+        "name": "NBA 2K18",
+        "imgLogo": "/img/items/13-logo.jpg",         
+        "imgPreview": "/img/items/13-preview.jpg",
+        "description": "The highest rated* annual sports title returns with NBA 2K18, featuring unparalleled authenticity and improvements on the court.*According to 2008 - 2016 Metacritic.",
+        "price": 210,
+        "discount": 15
+    }, 
+    {
+        "name": "The Elder Scrolls V: Skyrim Special Edition",
+        "imgLogo": "/img/items/14-logo.jpg",         
+        "imgPreview": "/img/items/14-preview.jpg",
+        "description": "Winner of more than 200 Game of the Year Awards, Skyrim Special Edition brings the epic fantasy to life in stunning detail. The Special Edition includes the critically acclaimed game and add-ons with all-new features like remastered art and effects, volumetric god rays, dynamic depth of field, screen-space ",
+        "price": 500,
+        "discount": 25
+    }, 
+    {
+        "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+        "imgLogo": "/img/items/15-logo.jpg",         
+        "imgPreview": "/img/items/15-preview.jpg",
+        "description": "The latest opus in the acclaimed STORM series is taking you on a colourful and breathtaking ride. Take advantage of the totally revamped battle system and prepare to dive into the most epic fights you’ve ever seen !",
+        "price": 150,
+        "discount": 40
+    }, 
+    {
+        "name": "Ultimate General: Civil War",
+        "imgLogo": "/img/items/16-logo.jpg",
+        "imgPreview": "/img/items/16-preview.jpg",
+        "description": "Ultimate General: Civil War is a tactical war-game. Experience the bloodiest period of U.S. history - the American Civil War of 1861-1865",
+        "price": 300,
+        "discount": 30
+    }, 
+    {
+        "name": "Tom Clancy's The Division™ - Season Pass",
+        "imgLogo": "/img/items/17-logo.jpg",         
+        "imgPreview": "/img/items/17-preview.jpg",
+        "description": "This content requires the base game Tom Clancy’s The Division™ on Steam in order to play",
+        "price": 160,
+        "discount": 5
+    }, 
+    {
+        "name": "Little Nightmares",
+        "imgLogo": "/img/items/18-logo.jpg",         
+        "imgPreview": "/img/items/18-preview.jpg",
+        "description": "Immerse yourself in Little Nightmares, a dark whimsical tale that will confront you with your childhood fears! Help Six escape The Maw – a vast, mysterious vessel inhabited by corrupted souls looking for their next meal.",
+        "price": 700,
+        "discount": 40
+    }, 
+    {
+        "name": "Tales of Berseria",
+        "imgLogo": "/img/items/19-logo.jpg",         
+        "imgPreview": "/img/items/19-preview.jpg",
+        "description": "Players embark on a journey of self-discovery as they assume the role of Velvet, a young woman whose once kind demeanor has been replaced and overcome with a festering anger and hatred after a traumatic experience three years prior to the events within Tales of Berseria",
+        "price": 200,
+        "discount": 10
+    }, 
+    {
+        "name": "Quake Champions",
+        "imgLogo": "/img/items/20-logo.jpg",         
+        "imgPreview": "/img/items/20-preview.jpg",
+        "description": "Quake® Champions is a fast-paced Arena shooter, a genre established by the original Quake 20 years ago. Mixing the dark mythos of Quake with the innovative multiplayer of Quake III Arena, the game adds a modern twist – Champions, each with unique attributes and abilities for players to master",
+        "price": 600,
+        "discount": 50
+    }
+]

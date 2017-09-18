@@ -1,0 +1,63 @@
+<div class="content">
+  <div class="row order">
+    <form class="form" name="userInfo">
+      <div class="field">
+        <label>Full Name</label>
+        <input type="text" required letters ng-model="$ctrl.fullname"/>
+        <span ng-show="userInfo.$error.letters && $ctrl.tryToOrder">This field should contains only letters!</span>
+      </div>
+  
+      <div class="field">
+        <label>Address</label>
+        <input type="text" required ng-model="$ctrl.address"/>
+      </div>
+  
+      <div class="field">
+        <label>E-mail</label>
+        <input type="email" required ng-model="$ctrl.email"/>
+      </div>
+  
+      <div class="field">
+        <label>Phone number</label>
+        <input type="text" required phone ng-model="$ctrl.phone" placeholder="XXX-XXX-XXXX"/>
+        <span ng-show="userInfo.$error.phone && $ctrl.tryToOrder">This field should contains phone number in format: XXX-XXX-XXXX!</span>
+      </div>
+  
+      <div class="field">
+        <label>Credit card number</label>
+        <input type="text" required credit ng-model="$ctrl.creditcard" placeholder="card number of 19 digits"/>
+        <span ng-show="userInfo.$error.credit && $ctrl.tryToOrder">This field should contains credit card number (19 digits)!</span>
+      </div>
+      
+      <input type="submit" ng-click="$ctrl.order(userInfo.$valid, userInfo)" value="Order" />
+    </form>
+  
+    <div class="description">
+      <div class="item">
+          <div class="title">
+            {{$ctrl.item.name}}
+          </div>
+          <div class="body">
+            <img ng-src="{{$ctrl.item.imgPreview}}" alt="{{$ctrl.item.name}}" class="img"/>
+            <div class="description">
+              {{$ctrl.item.description}}
+              <div ng-if="$ctrl.item.discount == 0">
+                <div class="price">
+                  <span>Buy for {{$ctrl.item.price | cashstyle}}$</span>
+                </div>
+              </div>
+              <div ng-if="$ctrl.item.discount > 0">
+                <div class="price">
+                  <span>Old price: <span class="old-price">{{$ctrl.item.price | cashstyle}}$</span></span>
+                </div>
+                <div class="discount price">
+                  <span>Buy with {{$ctrl.item.discount}}% discount for {{$ctrl.item.price * (100 - $ctrl.item.discount) / 100 | cashstyle}}$</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</div>

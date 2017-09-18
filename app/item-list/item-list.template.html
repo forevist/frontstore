@@ -1,0 +1,47 @@
+<div class="content">
+  <div class="row">
+    <div class="search">
+      Search:
+      <input ng-model="$ctrl.query" />
+    </div>
+    <div>
+      Sort by:
+      <select ng-model="$ctrl.orderProp">
+        <option value="name">Name</option>
+        <option value="price">Price</option>
+      </select>
+    </div>
+    <div class="sort" ng-click="$ctrl.orderReverse = !$ctrl.orderReverse">
+      <div ng-if="$ctrl.orderReverse">/\</div>
+      <div ng-if="!$ctrl.orderReverse">\/</div>
+    </div>
+  </div>
+  <div class="items">
+    <div ng-repeat="item in $ctrl.items | filter: {name: $ctrl.query} | orderBy:$ctrl.orderProp:$ctrl.orderReverse" class="item">
+      <div class="title">
+        <a href="#!/storefront/{{item.name}}">{{item.name}}</a>
+      </div>
+      <div class="body">
+        <a href="#!/storefront/{{item.name}}" class="img">
+          <img ng-src="{{item.imgLogo}}" alt="{{item.name}}" />
+        </a>
+        <div class="description">
+          {{item.description}}
+          <div ng-if="item.discount == 0">
+            <div class="price">
+              <div class="button" ng-click="$ctrl.preorder(item.name)">Buy</div> <span>for {{item.price | cashstyle}}$</span>
+            </div>
+          </div>
+          <div ng-if="item.discount > 0">
+            <div class="price">
+              <span>Old price: <span class="old-price">{{item.price | cashstyle}}$</span></span>
+            </div>
+            <div class="discount price">
+              <div class="button discount" ng-click="$ctrl.preorder(item.name)">Buy</div> <span>with {{item.discount}}% discount for {{item.price * (100 - item.discount) / 100 | cashstyle}}$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
